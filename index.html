@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VoltOrigin</title>
+<meta name="description" content="VoltOrigin — independent game studio. Maker of Chaos Survivor.">
+<link rel="icon" href="icon.png">
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161d25; --line:#263039;
+    --fg:#e7eef4; --muted:#93a1ad; --accent:#4dd1ff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.65 "Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,sans-serif;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:64px 20px 80px}
+  header{margin-bottom:48px}
+  h1{margin:0 0 6px;font-size:2rem;letter-spacing:.02em}
+  .tag{color:var(--muted);margin:0}
+  .card{
+    background:var(--panel); border:1px solid var(--line);
+    border-radius:14px; padding:28px; display:flex; gap:22px; align-items:flex-start;
+  }
+  .card img{width:88px;height:88px;border-radius:20px;flex:none}
+  .card h2{margin:0 0 8px;font-size:1.35rem}
+  .card p{margin:0 0 18px;color:var(--muted)}
+  .btn{
+    display:inline-block;background:var(--accent);color:#06202b;
+    text-decoration:none;font-weight:700;padding:11px 20px;border-radius:9px;
+  }
+  .btn:hover{filter:brightness(1.1)}
+  ul{margin:0 0 18px;padding-left:20px;color:var(--muted)}
+  li{margin-bottom:4px}
+  footer{
+    margin-top:56px;padding-top:22px;border-top:1px solid var(--line);
+    color:var(--muted);font-size:.92rem;
+  }
+  footer a{color:var(--accent)}
+  @media (max-width:520px){
+    .card{flex-direction:column}
+    .wrap{padding-top:40px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>VoltOrigin</h1>
+    <p class="tag">Independent game studio.</p>
+  </header>
+
+  <div class="card">
+    <img src="icon.png" alt="Chaos Survivor icon">
+    <div>
+      <h2>Chaos Survivor</h2>
+      <p>A one-handed survivor roguelite. Your weapons fire themselves — you dodge,
+         pick upgrades, and turn a fragile start into an unstoppable storm.</p>
+      <ul>
+        <li>9 characters, 8 weapons that evolve, 26 powers, 6 modes</li>
+        <li>10–20 minute runs, portrait, one thumb</li>
+        <li>Plays offline — no account, no sign-up</li>
+        <li>Free, with no forced ads</li>
+      </ul>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.voltorigin.chaossurvivor">Get it on Google Play</a>
+    </div>
+  </div>
+
+  <footer>
+    <a href="chaos-survivor-privacy/privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="mailto:voltoriginyt@gmail.com">voltoriginyt@gmail.com</a>
+  </footer>
+</div>
+</body>
+</html>
